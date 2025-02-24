@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Printables & Digital Goodies: Watch to Unlock</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+     body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#fileGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.fileItem {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.fileItem img.cover {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+}
+
+.fileItem .title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.fileItem .button-container {
+    margin-top: 10px;
+}
+
+.fileItem .button-container button {
+    padding: 10px;
+    background-color: #367588;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin: 5px;
+}
+
+.fileItem .button-container button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#passwordPrompt {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: white;
+    width: 90%;
+    max-width: 400px;
+}
+
+#passwordPrompt input {
+    padding: 10px;
+    margin: 10px 0;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#passwordPrompt button {
+    padding: 10px;
+    margin: 5px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0rem;
+    color: #367588;
+    margin: 12px;
+    padding: 10px;
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0rem;
+    color: #367588;
+    margin: 5px;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .subtitle {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .subtitle {
+        font-size: 1rem;
+    }
+}
+      .cover-container {
+    position: relative;
+    display: inline-block;
+}
+
+.pinterest-share {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #b71c1c;
+    text-decoration: none;
+}
+
+.cover {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.fileItem {
+    margin-bottom: 20px;
+}
+
+.title {
+    margin: 10px 0;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+   </style>
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@type": "CreativeWork",
+                "name": "Printable Cute Notebook Cover Shark",
+                "description": "A high-quality image of a cute notebook cover featuring a shark family.",
+                "contentUrl": "https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/shark%20family.png?alt=media&token=a2488b8d-00c6-4f66-93d2-dd9f1129c6e0",
+                "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/2.png?alt=media&token=c26888db-0e15-47f2-b85e-e525caa879a1"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@type": "CreativeWork",
+                "name": "Notebook Cover Bear",
+                "description": "A high-quality image of a notebook cover featuring a bear.",
+                "contentUrl": "https://example.com/file2.zip",
+                "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/3.png?alt=media&token=af6d4bd1-be7c-48c3-a4d1-78417b537c67"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "@type": "CreativeWork",
+                "name": "Notebook Insert",
+                "description": "A high-quality image of a notebook insert.",
+                "contentUrl": "https://example.com/file3.zip",
+                "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/Untitled%20design%20(4).jpg?alt=media&token=2baca507-b2ae-41bb-b5f3-21e8efd5ca81"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+                "@type": "CreativeWork",
+                "name": "Name Label",
+                "description": "A high-quality image of a name label.",
+                "contentUrl": "https://example.com/file4.zip",
+                "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/Untitled%20design%20(5).jpg?alt=media&token=0f201e4c-7b28-48e2-af40-6bf1ff3ceb7f"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+                "@type": "CreativeWork",
+                "name": "Notebook Cover Shark Family 5",
+                "description": "A high-quality image of a notebook cover featuring a shark family.",
+                "contentUrl": "https://example.com/file5.zip",
+                "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/2.png?alt=media&token=c26888db-0e15-47f2-b85e-e525caa879a1"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+                "@type": "CreativeWork",
+                "name": "Notebook Cover Shark Family 6",
+                "description": "A high-quality image of a notebook cover featuring a shark family.",
+                "contentUrl": "https://example.com/file6.zip",
+                "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/2.png?alt=media&token=c26888db-0e15-47f2-b85e-e525caa879a1"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+                "@type": "CreativeWork",
+                "name": "Notebook Cover Shark Family 7",
+                "description": "A high-quality image of a notebook cover featuring a shark family.",
+                "contentUrl": "https://example.com/file7.zip",
+                "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/2.png?alt=media&token=c26888db-0e15-47f2-b85e-e525caa879a1"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+                "@type": "CreativeWork",
+                "name": "Notebook Cover Shark Family 8",
+                "description": "A high-quality image of a notebook cover featuring a shark family.",
+                "contentUrl": "https://example.com/file8.zip",
+                "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/2.png?alt=media&token=c26888db-0e15-47f2-b85e-e525caa879a1"
+            }
+        }
+    ]
+}
+</script>
+<!-- Pinterest SDK -->
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+</head>
+<body>
+    <h1>Free Printables & Digital Goodies: </h1>
+    <h2 class="subtitle">Watch to Unlock</h2>
+    <p>Free personal and commercial use for physical item only. Click "Watch Facebook Reel" to watch the short video. After watching, enter the password (case sensitive) to download the file. The *password is either eng, fil or bis word/phrase/sentence.</p>
+
+   <div id="fileGrid">
+    <!-- File Items -->
+    <div class="fileItem" id="file1" data-password="malayu" data-file-link="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20cute%20notebook%20cover%20baby%20shark.png?alt=media&token=1bd46393-7bad-4b24-8d6e-f24c63d690aa">
+        <img src="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/covers%2Fprintable%20notebook%20cover%20baby%20shark.png?alt=media&token=962acc2e-ba88-47c6-a477-5858acc5f35e" alt="File Cover" class="cover">
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20cute%20notebook%20cover%20lemon%20and%20bear.png?alt=media&token=cde59d5b-3dc2-4dca-b542-400c1eff3f2a" class="pinterest-share" target="_blank">Pin it</a>
+        <div class="title">Printable Cute Notebook Cover Shark</div>
+        <div class="button-container">
+            <button onclick="watchReel('file1', 'https://www.facebook.com/reel/391101137256760')">Watch Facebook Reel</button>
+            <button id="downloadBtn1" disabled onclick="downloadFile('file1')">Download File 1</button>
+        </div>
+    </div>
+
+    <div class="fileItem" id="file2" data-password="get" data-file-link="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20cute%20notebook%20cover%20lemon%20and%20bear.png?alt=media&token=cde59d5b-3dc2-4dca-b542-400c1eff3f2a">
+        <img src="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/covers%2Fprintable%20notebook%20cute%20bear.png?alt=media&token=b0cc7c92-98e5-40dc-9971-5120296d6344" alt="File Cover" class="cover">
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20cute%20notebook%20cover%20lemon%20and%20bear.png?alt=media&token=cde59d5b-3dc2-4dca-b542-400c1eff3f2a" class="pinterest-share" target="_blank">Pin it</a>
+        <div class="title">Printable Cute Notebook Cover Bear</div>
+        <div class="button-container">
+            <button onclick="watchReel('file2', 'https://www.facebook.com/reel/1502385880307745')">Watch Facebook Reel</button>
+            <button id="downloadBtn2" disabled onclick="downloadFile('file2')">Download File 2</button>
+        </div>
+    </div>
+
+    <div class="fileItem" id="file3" data-password="kaon" data-file-link="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20notebook%20insert.png?alt=media&token=4040c202-1fc3-47ae-8500-c28c0e00ce34">
+        <img src="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/covers%2Fprintable%20notebook%20insert.jpg?alt=media&token=435741e8-9a30-4ad2-92e4-3f646b46a7fa" alt="File Cover" class="cover">
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20notebook%20insert.png?alt=media&token=4040c202-1fc3-47ae-8500-c28c0e00ce34" class="pinterest-share" target="_blank">Pin it</a>
+        <div class="title">Printable Notebook Insert Lined Paper</div>
+        <div class="button-container">
+            <button onclick="watchReel('file3', 'https://www.facebook.com/reel/839216821167263')">Watch Facebook Reel</button>
+            <button id="downloadBtn3" disabled onclick="downloadFile('file3')">Download File 3</button>
+        </div>
+    </div>
+
+    <div class="fileItem" id="file4" data-password="upo" data-file-link="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20cute%20name%20labe%20cats.png?alt=media&token=5d6dc73e-f076-4f5e-a84d-cc62ebefc0e0">
+        <img src="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/covers%2Fprintable%20cute%20name%20label%20cat.jpg?alt=media&token=1ff59e9d-a47e-495f-986d-88ed7d10bdf9" alt="File Cover" class="cover">
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20cute%20name%20labe%20cats.png?alt=media&token=5d6dc73e-f076-4f5e-a84d-cc62ebefc0e0" class="pinterest-share" target="_blank">Pin it</a>
+        <div class="title">Printable Name Label Kawaii Cats</div>
+        <div class="button-container">
+            <button onclick="watchReel('file4', 'https://www.facebook.com/share/r/KkH9z83TYRQhJjzw/')">Watch Facebook Reel</button>
+            <button id="downloadBtn4" disabled onclick="downloadFile('file4')">Download File 4</button>
+        </div>
+    </div>
+
+    <div class="fileItem" id="file5" data-password="Ilang taon ka?" data-file-link="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20notead%20cute%20dog.png?alt=media&token=db40bf78-352d-4d34-a464-5268d8629fcd">
+        <img src="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/covers%2Fprintable%20notepad%20cute%20dog.jpg?alt=media&token=ea71000c-5de3-44a5-9bf7-f91a248fcabf" alt="File Cover" class="cover">
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20notead%20cute%20dog.png?alt=media&token=db40bf78-352d-4d34-a464-5268d8629fcd" class="pinterest-share" target="_blank">Pin it</a>
+        <div class="title">Printable Memo Pad Cute Dog</div>
+        <div class="button-container">
+            <button onclick="watchReel('file5', 'https://www.facebook.com/reel/3687824128173367')">Watch Facebook Reel</button>
+            <button id="downloadBtn5" disabled onclick="downloadFile('file5')">Download File 5</button>
+        </div>
+    </div>
+
+    <div class="fileItem" id="file6" data-password="remind" data-file-link="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20notepad%20cute%20frogs.png?alt=media&token=4a967581-c4a2-4833-8494-322cfdda1f83">
+        <img src="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/covers%2Fprintable%20notepad%20cute%20frogs.jpg?alt=media&token=ebc8922f-91f3-4bf0-a57f-263526f9d5d3" alt="File Cover" class="cover">
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/files%2Fprintable%20notepad%20cute%20frogs.png?alt=media&token=4a967581-c4a2-4833-8494-322cfdda1f83" class="pinterest-share" target="_blank">Pin it</a>
+        <div class="title">Printable Memo Pad Cute Frogs</div>
+        <div class="button-container">
+            <button onclick="watchReel('file6', 'https://www.facebook.com/share/r/YCK1Zgu4QsghiiTv/')">Watch Facebook Reel</button>
+            <button id="downloadBtn6" disabled onclick="downloadFile('file6')">Download File 6</button>
+        </div>
+    </div>
+
+    <div class="fileItem" id="file7" data-password="butterfly" data-file-link="https://mega.nz/file/HWJjCTLR#-WF8WDWjlZbas4C8f65jrOgzumqgpECc6D1vSp0RE4U">
+        <img src="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/covers%2FPREVIEW_WEEKLY%20PLANNER_SHABBY%20JUNK%20AUTUMN_STUDIO%207766.jpg?alt=media&token=98667209-fddb-4217-83f7-b95745c05670" alt="File Cover" class="cover">
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://mega.nz/file/HWJjCTLR#-WF8WDWjlZbas4C8f65jrOgzumqgpECc6D1vSp0RE4U" class="pinterest-share" target="_blank">Pin it</a>
+        <div class="title">Printable Weekly Planner Junk Pages by Studio 7766</div>
+        <div class="button-container">
+            <button onclick="watchReel('file7', 'https://www.facebook.com/share/r/EACmbYPDpKeK18Y6/')">Watch Facebook Reel</button>
+            <button id="downloadBtn7" disabled onclick="downloadFile('file7')">Download File 7</button>
+        </div>
+    </div>
+
+    <div class="fileItem" id="file8" data-password="wag mag-alala" data-file-link="https://mega.nz/file/2b4TCZQB#t_1DoK_qD7UOUZsoN64NUAWvYmvhC0W7iWB2byMFQ4Y">
+        <img src="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/covers%2Ffloral%20journal%20paper.jpg?alt=media&token=c57fa95e-9b58-4a1b-b0cf-68a9277c8dc8" alt="File Cover" class="cover">
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://mega.nz/file/2b4TCZQB#t_1DoK_qD7UOUZsoN64NUAWvYmvhC0W7iWB2byMFQ4Y" class="pinterest-share" target="_blank">Pin it</a>
+        <div class="title">Floral Junk Journal Pages by AS Digitale</div>
+        <div class="button-container">
+            <button onclick="watchReel('file8', 'https://www.facebook.com/share/r/X2Qj7PMQMaHrp5tY/')">Watch Facebook Reel</button>
+            <button id="downloadBtn8" disabled onclick="downloadFile('file8')">Download File 8</button>
+        </div>
+    </div>
+
+    <div class="fileItem" id="file9" data-password="wag kalimutan" data-file-link="https://mega.nz/folder/PO4G3TBb#bubgG_wNpj-hf67yWF-bqQ">
+        <img src="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/covers%2Fcute%20desktop%20wallpaper.jpg?alt=media&token=aaaec86d-b2fb-493a-960e-c0d84b23edb7" alt="File Cover" class="cover">
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://mega.nz/folder/PO4G3TBb#bubgG_wNpj-hf67yWF-bqQ" class="pinterest-share" target="_blank">Pin it</a>
+        <div class="title">Personal Use Only- Cute Desktop Wallpapers by Berry Soup</div>
+        <div class="button-container">
+            <button onclick="watchReel('file9', 'https://www.facebook.com/share/r/kMwQm9ngn8bgwhZi/')">Watch Facebook Reel</button>
+            <button id="downloadBtn9" disabled onclick="downloadFile('file9')">Download File 9</button>
+        </div>
+    </div>
+
+    <div class="fileItem" id="file10" data-password="bakal" data-file-link="https://dcdigitaldownloads.blogspot.com/p/minimalist-calendar-generator_28.html">
+         <img src="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/covers%2Fprintable%20%20minimalist%20trasparent%20calendar.jpg?alt=media&token=2a6531a3-0991-4b43-88aa-4173fa88e553" alt="File Cover" class="cover">
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://dcdigitaldownloads.blogspot.com/p/minimalist-calendar-generator_28.html" class="pinterest-share" target="_blank">Pin it</a>
+        <div class="title"> (Expired Free Access) Minimalist Calendar Generator</div>
+        <div class="button-container">
+            <button onclick="watchReel('file10', 'https://www.facebook.com/share/r/AZuY8p72B54o95dU/')">Watch Facebook Reel</button>
+            <button id="downloadBtn10" disabled onclick="downloadFile('file10')">Download File 10</button>
+        </div>
+    </div>
+
+    <div class="fileItem" id="file11" data-password="kaibigan" data-file-link="https://dcdigitaldownloads.blogspot.com/p/minimalist-calendar-generator-bold.html">
+       <img src="https://firebasestorage.googleapis.com/v0/b/online-storage-314fb.appspot.com/o/covers%2Fprintable%20minimalist%20calendar%20transpa.jpg?alt=media&token=a0c5be70-1be0-4384-b7e8-8a771caf04ee" alt="File Cover" class="cover">
+        <a href="https://www.pinterest.com/pin/create/button/?url=https://dcdigitaldownloads.blogspot.com/p/minimalist-calendar-generator-bold.html" class="pinterest-share" target="_blank">Pin it</a>
+        <div class="title">(Expired Free Access) Printable Minimalist Bold Calendar</div>
+        <div class="button-container">
+            <button onclick="watchReel('file11', 'https://www.facebook.com/share/r/uXzSgM256AFkNb9h/')">Watch Facebook Reel</button>
+            <button id="downloadBtn11" disabled onclick="downloadFile('file11')">Download File 11</button>
+        </div>
+    </div>
+
+    <!-- Password Prompt -->
+    <div id="passwordPrompt">
+        <h2>Enter Password</h2>
+        <input type="text" id="passwordInput" placeholder="enter password here">
+        <button onclick="checkPassword()">Submit</button>
+        <button onclick="closePasswordPrompt()">Cancel</button>
+    </div>
+ </div>
+    <script>
+        function watchReel(fileId, reelUrl) {
+            window.open(reelUrl, '_blank');
+            document.getElementById('passwordPrompt').style.display = 'block';
+            document.querySelector('#passwordInput').dataset.fileId = fileId;
+        }
+
+        function checkPassword() {
+            const fileId = document.querySelector('#passwordInput').dataset.fileId;
+            const password = document.getElementById('passwordInput').value;
+            const correctPassword = document.getElementById(fileId).dataset.password;
+            
+            if (password === correctPassword) {
+                document.getElementById(`downloadBtn${fileId.replace('file', '')}`).disabled = false;
+                closePasswordPrompt(); // Close the password prompt
+            } else {
+                alert("Incorrect password. Please try again.");
+            }
+        }
+
+        function closePasswordPrompt() {
+            document.getElementById('passwordPrompt').style.display = 'none';
+        }
+
+        function downloadFile(fileId) {
+            const fileLink = document.getElementById(fileId).dataset.fileLink;
+            window.open(fileLink, '_blank');
+        }
+    </script>
+</body>
+</html>
